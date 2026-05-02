@@ -113,7 +113,7 @@ const KanbanBoard = ({ tasks }) => {
                     </div>
                     <h3 style={{ fontSize: '0.925rem', fontWeight: 500, marginBottom: '1rem' }}>{task.title}</h3>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                      <div style={{ display: 'flex', -webkit-mask-image: 'linear-gradient(to right, black 80%, transparent)' }}>
+                      <div style={{ display: 'flex', WebkitMaskImage: 'linear-gradient(to right, black 80%, transparent)' }}>
                         <div style={{ width: '24px', height: '24px', borderRadius: '50%', background: 'var(--primary)', border: '2px solid var(--surface)' }} />
                       </div>
                       <div style={{ display: 'flex', gap: '0.25rem' }}>

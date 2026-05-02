@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { auth, db } from '../firebase';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { setDoc, doc } from 'firebase/firestore';
-import { Mail, Lock, User, Github, Chrome } from 'lucide-react';
+import { Mail, Lock, User, Globe, Shield } from 'lucide-react';
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -126,10 +126,10 @@ const Auth = () => {
 
         <div style={{ display: 'flex', gap: '1rem' }}>
           <button className="glass" style={{ flex: 1, padding: '0.75rem', borderRadius: 'var(--radius-sm)', display: 'flex', justifyContent: 'center' }}>
-            <Chrome size={20} color="var(--text-muted)" />
+            <Shield size={20} color="var(--text-muted)" />
           </button>
           <button className="glass" style={{ flex: 1, padding: '0.75rem', borderRadius: 'var(--radius-sm)', display: 'flex', justifyContent: 'center' }}>
-            <Github size={20} color="var(--text-muted)" />
+            <Globe size={20} color="var(--text-muted)" />
           </button>
         </div>
 
