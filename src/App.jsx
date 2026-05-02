@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from './firebase';
-import { collection, query, onSnapshot } from 'firebase/firestore';
+
 import { AuthProvider, useAuth } from './AuthContext';
 import Navbar from './components/Navbar';
 import KanbanBoard from './components/KanbanBoard';

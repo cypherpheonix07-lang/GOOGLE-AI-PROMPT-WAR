@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase';
-import { collection, query, onSnapshot, updateDoc, doc, addDoc, serverTimestamp } from 'firebase/firestore';
+
 import { Plus, MoreVertical, Clock, CheckCircle2, PlayCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 

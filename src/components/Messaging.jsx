@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { db } from '../firebase';
-import { collection, query, orderBy, onSnapshot, addDoc, serverTimestamp } from 'firebase/firestore';
+
 import { useAuth } from '../AuthContext';
 import { Send, Smile, Paperclip } from 'lucide-react';
 
